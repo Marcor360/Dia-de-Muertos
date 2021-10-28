@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="CSS\bootstrap.min.css"><!--- Enlace de Boostrap.CSS --->
   </head>
   <!--- Empieza navbar --->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#7F2A11;">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.php">México Oculto</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,22 +15,22 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">Hogar</a>
+          <a class="nav-link active" aria-current="page" href="index.php" >Hogar</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Mictlán_Que_es.php">¿Que es el Mictlán?</a>
+          <a class="nav-link active" href="Mictlán_Que_es.php">¿Que es el Mictlán?</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">¿Como llegamos al Mictlán?</a>
+          <a class="nav-link active" href="ComoLlegamosMiclán.php">¿Como llegamos al Mictlán?</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="Dioses_Tipos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle active" href="#" id="Dioses_Tipos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dioses
           </a>
-          <ul class="dropdown-menu" aria-labelledby="Dioses_Tipos">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <ul class="dropdown-menu" aria-labelledby="Dioses_Tipos" style="background-color:#7F2A11;">
+            <li><a class="dropdown-item " href="#" >Action</a></li>
+            <li><a class="dropdown-item " href="#">Another action</a></li>
+            <li><a class="dropdown-item " href="#">Something else here</a></li>
           </ul>
         </li>
       </ul>
@@ -38,8 +38,31 @@
   </div>
 </nav>
   <!--- Finaliza navbar --->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="3000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="IMG\1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="IMG\2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="IMG\3.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="IMG\4.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
   <!--- Empieza Slider --->
-
   <!--- Finaliza Slider --->
   <body>
     <!--- Empieza Pie de Paguina --->

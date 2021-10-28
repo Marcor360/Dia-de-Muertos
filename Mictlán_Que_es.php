@@ -6,7 +6,7 @@
     <title> México Oculto | ¿Que es el Mictlán?</title>
   </head>
   <!--- Empieza navbar --->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#7F2A11;">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.php">México Oculto</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,22 +15,22 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">Hogar</a>
+          <a class="nav-link active" aria-current="page" href="index.php" >Hogar</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Mictlán_Que_es.php">¿Que es el Mictlán?</a>
+          <a class="nav-link active" href="Mictlán_Que_es.php">¿Que es el Mictlán?</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">¿Como llegamos al Mictlán?</a>
+          <a class="nav-link active" href="#">¿Como llegamos al Mictlán?</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="Dioses_Tipos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle active" href="#" id="Dioses_Tipos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dioses
           </a>
-          <ul class="dropdown-menu" aria-labelledby="Dioses_Tipos">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <ul class="dropdown-menu" aria-labelledby="Dioses_Tipos" style="background-color:#7F2A11;">
+            <li><a class="dropdown-item " href="#" >Action</a></li>
+            <li><a class="dropdown-item " href="#">Another action</a></li>
+            <li><a class="dropdown-item " href="#">Something else here</a></li>
           </ul>
         </li>
       </ul>
@@ -52,6 +52,6 @@
       </div>
     </footer>
     <!--- Finaliza el pie de Paguina --->
-    <script src="" ></script><!--  Empieza script--->
+    <script src="JS\bootstrap.min.js" ></script><!--  Empieza script--->
   </body>
 </html>
