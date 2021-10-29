@@ -64,7 +64,43 @@
   </div>
   <!--- Empieza Slider --->
   <!--- Finaliza Slider --->
-  <body>
+  <body style="background-color:#7F2A11">
+    <!--- Empieza Cards --->
+    <div class="row">
+      <!--- Primer Cards --->
+  <div class="col-sm-6">
+    <div class="card" style="background-color:#B8401D;">
+      <div class="card-body">
+        <h5 class="card-title text-light">¿Que es el Mictlán?</h5>
+        <img src="IMG\2.png" class="card-img-top" alt="...">
+        <p class="card-text text-light">Quieres Saber cual es el Mitclán el inframundo de la Cultura Mexicana </p>
+        <a href="Mictlán_Que_es.php" class="btn text-light">Vamos</a>
+      </div>
+    </div>
+  </div>
+  <!--- Cuarto Cards --->
+  <div class="col-sm-6">
+    <div class="card" style="background-color:#B8401D;">
+      <div class="card-body">
+        <h5 class="card-title text-light">¿Como llegamos al Mictlán?</h5>
+         <img src="IMG\3.png" class="card-img-top" alt="...">
+        <p class="card-text text-light">Quieres Saber Como se llega al Mitclán Y cual es la trabesia de este...</p>
+        <a href="ComoLlegamosMiclán.php" class="btn text-light">Vamos</a>
+      </div>
+    </div>
+  </div><!--- Tercerd Cards --->
+  <div class="col-sm-6">
+    <div class="card" style="background-color:#B8401D;">
+      <div class="card-body">
+        <h5 class="card-title active text-light">Dioses del Mitclán</h5>
+        <img src="IMG\4.png" class="card-img-top" alt="...">
+        <p class="card-text text-light">Que Dioses de la cultura Mexicana son los guardianes del Mitclán</p>
+        <a href="" class="btn  text-light">Vamos</a>
+      </div>
+    </div>
+  </div>
+</div>
+    <!--- Termina Cards --->
     <!--- Empieza Pie de Paguina --->
     <footer>
       <div class="text-center py-2">

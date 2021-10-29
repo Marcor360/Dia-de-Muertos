@@ -21,7 +21,7 @@
           <a class="nav-link active" href="Mictlán_Que_es.php">¿Que es el Mictlán?</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">¿Como llegamos al Mictlán?</a>
+          <a class="nav-link active" href="ComoLlegamosMiclán.php">¿Como llegamos al Mictlán?</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle active" href="#" id="Dioses_Tipos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -38,7 +38,8 @@
   </div>
 </nav>
   <!--- Finaliza navbar --->
-  <body>
+  <body style="background-color:#7F2A11">
+
     <!--- Empieza Pie de Paguina --->
     <footer>
       <div class="text-center py-2">

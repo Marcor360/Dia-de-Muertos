@@ -38,7 +38,7 @@
   </div>
 </nav>
   <!--- Finaliza Navbar --->
-  <body>
+  <body style="background-color:#7F2A11">
     <!--- Empieza Pie de Paguina --->
     <footer>
       <div class="text-center py-2">
