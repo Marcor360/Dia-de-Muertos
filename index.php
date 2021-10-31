@@ -27,7 +27,7 @@
           <a class="nav-link dropdown-toggle active" href="#" id="Dioses_Tipos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dioses
           </a>
-          <ul class="dropdown-menu" aria-labelledby="Dioses_Tipos" style="background-color:#7F2A11;">
+          <ul class="dropdown-menu" aria-labelledby="Dioses_Tipos" style="background-color:#B8401D;">
             <li><a class="dropdown-item " href="#" >Action</a></li>
             <li><a class="dropdown-item " href="#">Another action</a></li>
             <li><a class="dropdown-item " href="#">Something else here</a></li>
@@ -101,19 +101,19 @@
   </div>
 </div>
     <!--- Termina Cards --->
-    <!--- Empieza Pie de Paguina --->
-    <footer>
-      <div class="text-center py-2">
-        Derechos reservados | México Oculto
-      </div>
-      <div class="text-center">
-        Contacto | 5532083451
-      </div>
-      <div class="text-center">
-        Email | Méxicooculto@contacto.com.mx
-      </div>
-    </footer>
-    <!--- Finaliza el pie de Paguina --->
 <!--- Empieza escript ---> <script src="JS\bootstrap.min.js"></script><!--- Finaliza script --->
   </body>
+  <!--- Empieza Pie de Paguina --->
+  <footer  style="background-color:#B8401D;">
+    <div class="text-center py-2 text-light">
+    ©   Derechos reservados | México Oculto
+    </div>
+    <div class="text-center text-light">
+      Contacto | 5532083451
+    </div>
+    <div class="text-center text-light">
+      Email | Méxicooculto@contacto.com.mx
+    </div>
+  </footer>
+  <!--- Finaliza el pie de Paguina --->
 </html>
