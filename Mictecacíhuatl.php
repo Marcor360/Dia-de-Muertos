@@ -15,7 +15,8 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php" >Hogar</a>
+          <a class="nav-link active" aria-current="page" href="index.php" ><svg class="bi" width="18" height="18" fill="currentColor">
+                                                                           <use xlink:href="Library/Icons/bootstrap-icons.svg#house-door"/></svg>   Hogar</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="Mictlán_Que_es.php">¿Que es el Mictlán?</a>
