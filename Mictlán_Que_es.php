@@ -28,9 +28,8 @@
             Dioses
           </a>
           <ul class="dropdown-menu" aria-labelledby="Dioses_Tipos" style="background-color:#B8401D;">
-            <li><a class="dropdown-item " href="#" >Action</a></li>
-            <li><a class="dropdown-item " href="#">Another action</a></li>
-            <li><a class="dropdown-item " href="#">Something else here</a></li>
+            <li><a class="dropdown-item " href="Mictlantecuhtli.php" >Mictlantecuhtli</a></li>
+            <li><a class="dropdown-item " href="Mictecacíhuatl.php">Mictecacíhuatl</a></li>
           </ul>
         </li>
       </ul>

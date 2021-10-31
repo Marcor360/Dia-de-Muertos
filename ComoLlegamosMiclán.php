@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>México Oculto| Como llegar a el Mictlán</title>
+    <title>México Oculto | Como llegar a el Mictlán</title>
     <link rel="stylesheet" href="CSS\bootstrap.min.css"> <!---   Link a CSS--->
   </head>
   <!--- Empieaz Navbar--->
@@ -28,9 +28,8 @@
             Dioses
           </a>
           <ul class="dropdown-menu" aria-labelledby="Dioses_Tipos" style="background-color:#B8401D;">
-            <li><a class="dropdown-item " href="#" >Action</a></li>
-            <li><a class="dropdown-item " href="#">Another action</a></li>
-            <li><a class="dropdown-item " href="#">Something else here</a></li>
+            <li><a class="dropdown-item " href="Mictlantecuhtli.php">Mictlantecuhtli </a></li>
+            <li><a class="dropdown-item " href="Mictecacíhuatl.php">Mictecacíhuatl</a></li>
           </ul>
         </li>
       </ul>
@@ -97,6 +96,11 @@
            <!--- Fin Card Imagen --->
         </div>
       </div>
+      <!--- Empieza Video--->
+      <div class="ratio ratio-16x9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xIblhK7zWOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <!--- Finaliza Video --->
     </div>
     <!--- Termina Informacion --->
     <script src="JS\bootstrap.min.js"></script><!--- Escript a JS--->
